@@ -1,0 +1,113 @@
+﻿@page
+@model cldv_part1_mvc.Views.Home.WorkModel
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+@{
+
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Work">Work</a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+            <h2 class="sr-only">Products</h2>
+
+            <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://salonprive.shop/wp-content/uploads/2022/01/5.jpg" alt="The best kinds of shoes are those that are handmade by skilled cobblers who are proud of and good at what they do. Their strict attention to detail will create better shoes every time. There is no way that machines can achieve the same perfect fit that experienced cobblers can do." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-4 text-sm text-gray-700">Oxford Shoe</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">R350</p>
+                </a>
+                <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://cdnimg.brunomarcshoes.com/brunomarcs/image/article/20220818_79/GIORGIO-3-mens-dress-loafers-05.jpg" alt="They can be perforated, have buckles or tassels on them for a classy look." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-4 text-sm text-gray-700">Dress Loafers</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">R300</p>
+                </a>
+                <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://cdnimg.brunomarcshoes.com/brunomarcs/image/article/20220818_79/tuxedo-shoes-sbox227m-04.jpg" alt="Tuxedo dress shoes are the way to go" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-4 text-sm text-gray-700">Tuxedo Dress Shoes</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">These shoes are specially designed to be worn on the formal events</p>
+                    <p class="mt-1 text-lg font-medium text-gray-900">R500</p>
+                </a>
+                <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://cdnimg.brunomarcshoes.com/brunomarcs/image/article/20220818_79/warner-2-mens-dress-ankle-boots-02.jpg" alt="They help you to improve your appearance." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-4 text-sm text-gray-700">Dress Boots</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">R510</p>
+                </a>
+
+                <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                      <img src="~/images/shoe.jpeg" alt="They help you to improve your appearance." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    </div>
+                    <h3 class="mt-4 text-sm text-gray-700">Kallista</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">R1100</p>
+                </a>
+
+                <!-- More products... -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+}
